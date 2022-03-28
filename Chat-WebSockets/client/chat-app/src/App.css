@@ -1,0 +1,53 @@
+.App-chatbox {
+  position:relative;
+  height:500px;
+  width:1139px;
+  float:right;
+}
+
+.App-conversation {
+  overflow-y:auto;
+  height:81%;
+  width:100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #499253c5; */
+  background-image: url(https://i.pinimg.com/originals/af/f5/86/aff586e5a92ad7b4dab6c16d2ee60814.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
